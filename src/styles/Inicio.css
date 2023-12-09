@@ -1,0 +1,312 @@
+/* En Inicio.css */
+
+/* Estilos para el contenedor principal */
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 300vh;
+}
+
+/* Estilos para la mitad superior dividida en dos partes */
+.mitad-superior {
+  flex: 0.5;
+  display: flex;
+}
+
+/* Estilos para la parte izquierda de la mitad superior */
+.izquierda {
+  flex: 1;
+  background-color: rgba(36, 45, 69, 1);
+  position: relative; /* Añadir posición relativa para posicionar el círculo y la imagen */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.texto {
+  color: white;
+  transform: translate(145%, -320%);
+}
+
+.subtexto {
+  color: white;
+  transform: translate(-20%, 15%);
+  margin-top: 10px;
+  /*margin-top: 10px;*/
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.registro-color {
+  color: rgba(201, 105, 115, 1); /* Cambia el color según tus preferencias */
+}
+
+.subtextoderecha {
+  color: rgba(36, 45, 69, 1);
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 40px;
+  position: absolute;
+  bottom: 500px; /* Ajusta la distancia desde la parte inferior */
+  right: 20px; 
+}
+
+.subtextoinferior {
+  color: black;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 40px;
+  position: absolute;
+  bottom: -1250px; /* Ajusta la distancia desde la parte inferior */
+  right: 785px;
+  
+}
+
+.enlaces {
+  text-align: center; /* Centrar el texto en la sección de enlaces */
+  margin-top: -80px; /* Ajusta el margen superior según tus preferencias */
+}
+
+.enlaces a {
+  display: block; /* Convertir los enlaces en bloques para ocupar todo el ancho disponible */
+  padding: 10px 0; /* Ajustar el espaciado interno de los enlaces según tus preferencias */
+  text-decoration: none; /* Eliminar la decoración de subrayado */
+  color: black; /* Color del texto de los enlaces */
+  font-size: 20px; /* Tamaño de fuente de los enlaces */
+  font-weight: bold;
+}
+
+.enlaces a:hover {
+  text-decoration: underline; /* Subrayar los enlaces al pasar el ratón sobre ellos */
+}
+
+/* Estilos para la parte derecha de la mitad superior */
+.derecha {
+  flex: 1;
+  background-color: rgba(170, 195, 185, 1);
+}
+
+/* Estilos para la mitad inferior */
+.mitad-inferior {
+  flex: 1;
+  background-color: white;
+}
+
+.circulo {
+  width: 10vw; /* Usar vw para hacerlo responsive al ancho del viewport */
+  height: 10vw; /* Usar vw para hacerlo responsive al ancho del viewport */
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-230%, -200%);
+}
+
+.circulo2 {
+  width: 10vw; /* Usar vw para hacerlo responsive al ancho del viewport */
+  height: 10vw; /* Usar vw para hacerlo responsive al ancho del viewport */
+  border-radius: 50%;
+  background-color: rgba(217, 217, 217, 1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-430%, 300%);
+}
+
+.circulo3 {
+  width: 10vw; /* Usar vw para hacerlo responsive al ancho del viewport */
+  height: 10vw; /* Usar vw para hacerlo responsive al ancho del viewport */
+  border-radius: 50%;
+  background-color: rgba(217, 217, 217, 1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 300%);
+}
+
+.circulo4 {
+  width: 10vw; /* Usar vw para hacerlo responsive al ancho del viewport */
+  height: 10vw; /* Usar vw para hacerlo responsive al ancho del viewport */
+  border-radius: 50%;
+  background-color: rgba(217, 217, 217, 1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(330%, 300%);
+}
+
+.circulo img {
+  width: 140%; /* Hace que la imagen ocupe el 100% del ancho del contenedor */
+  height: 100%; /* Hace que la imagen ocupe el 100% del alto del contenedor */
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.circulo-text,
+.cuidadores-text {
+  margin: 0;
+  font-size: 20px; /* Ajusta el tamaño del texto según tus preferencias */
+  color: rgba(36, 45, 69, 1); /* Ajusta el color del texto según tus preferencias */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 20%);
+  text-align: center;
+  font-weight: bold;
+}
+
+.circulo-text {
+  font-size: 36px; /* Ajusta el tamaño del texto "cuidadores" */
+  color: rgba(36, 45, 69, 1); /* Ajusta el color del texto "cuidadores" */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  margin-top: 10px;
+  /*margin-top: 10px;*/
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.linea {
+  width: 20%; /* Ajusta el ancho de la línea según tus preferencias */
+  height: 2px; /* Ajusta el grosor de la línea según tus preferencias */
+  background-color: black; /* Color de la línea */
+  position: absolute;
+  bottom: -1220px; /* Ajusta la distancia desde la parte inferior */
+  right: 715px;
+}
+
+/* Estilos para el botón de registro */
+.registro-btn {
+  padding: 10px 20px; /* Ajusta el espaciado interno del botón */
+  font-size: 26px; /* Ajusta el tamaño de la fuente del botón */
+  background-color: rgba(36, 45, 69, 1); 
+  color: white; /* Color del texto del botón */
+  border: 2px solid white; /* Bordes blancos sólidos */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  border-radius: 200px;
+  transform: translate(30%, 100%);
+  text-decoration: none;
+  display: inline-block;
+  background: transparent;
+}
+
+.registro-btn:hover {
+  background-color: white; /* Cambia el color de fondo al pasar sobre el botón */
+  color: #282c34; /* Cambia el color del texto al pasar sobre el botón */
+}
+
+.registro-btn2 {
+  padding: 10px 20px; /* Ajusta el espaciado interno del botón */
+  font-size: 26px; /* Ajusta el tamaño de la fuente del botón */
+  background-color: rgba(36, 45, 69, 1); 
+  color: white; /* Color del texto del botón */
+  border: 2px solid white; /* Bordes blancos sólidos */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  border-radius: 200px;
+  transform: translate(220%, 100%);
+  text-decoration: none;
+  display: inline-block;
+}
+
+.registro-btn2:hover {
+  background-color: white; /* Cambia el color de fondo al pasar sobre el botón */
+  color: #282c34; /* Cambia el color del texto al pasar sobre el botón */
+}
+
+.imagen1 img {
+  transform: translate(37%, 90%);
+}
+
+.imagen2 img {
+  transform: translate(135%, -21%);
+}
+
+.imagen3 img {
+  transform: translate(262%, -16%);
+}
+
+.imagen4 img {
+  transform: translate(434%, -118%);
+}
+
+/* Media query para ajustar el tamaño del círculo en pantallas pequeñas */
+@media (max-width: 830px) {
+  .circulo {
+    width: 15vw;
+    height: 15vw;
+    transform: translate(-170%, -235%); 
+  }
+  .texto {
+    transform: translate(100%, -290%); /* Ajustar porcentaje para posición vertical en pantallas pequeñas */
+  }
+  .subtexto{
+    transform: translate(-50%, 10%); 
+  }
+  .registro-btn2{
+    transform: translate(50%, 200%); 
+  }
+  .subtextoderecha{
+    transform: translate(-5%, 590%); 
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  .circulo2{
+    transform: translate(-430%, 480%);
+  }
+  .circulo3{
+    transform: translate(-50%, 480%);
+  }
+  .circulo4{
+    transform: translate(330%, 480%);
+  }
+  .circulo-text,
+  .cuidadores-text{
+    margin: 0;
+    font-size: 8px; /* Ajusta el tamaño del texto según tus preferencias */
+    color: rgba(36, 45, 69, 1); /* Ajusta el color del texto según tus preferencias */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 55%);
+    text-align: center;
+    font-weight: bold;
+  }
+  .circulo-text {
+    font-size: 16px; /* Ajusta el tamaño del texto "cuidadores" */
+    color: rgba(36, 45, 69, 1); /* Ajusta el color del texto "cuidadores" */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    margin-top: 10px;
+    /*margin-top: 10px;*/
+    font-weight: bold;
+    font-size: 35px;
+  }
+  .imagen1 img {
+    transform: translate(37%, 65%);
+    width: 300px;
+  }
+  
+  .imagen2 img {
+    transform: translate(140%, -74%);
+    width: 300px;
+  }
+  
+  .imagen3 img {
+    transform: translate(240%, -74%);
+    width: 175px;
+  }
+  
+  .imagen4 img {
+    transform: translate(521%, -177%);
+    width: 116px;
+    height: 119px;
+  }
+}

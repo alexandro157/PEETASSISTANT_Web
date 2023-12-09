@@ -1,0 +1,214 @@
+/* En Register.css */
+.register-container {
+    display: flex;
+    height: 100vh; /* O ajusta la altura según tus necesidades */
+}
+  
+.left-section {
+    flex: 1;
+    background-color: rgba(169, 195, 184, 1);
+    /* Puedes agregar más estilos según tus necesidades */
+}
+  
+.right-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(169, 195, 184, 1);
+    /* Puedes agregar más estilos según tus necesidades */
+}
+
+/* Estilos adicionales para la imagen si es necesario */
+.right-section img {
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: 100%; /* Mantiene la proporción original de la imagen */
+}
+  
+.dog {
+    transform: translate(31%, 10%);
+}
+
+.custom-input {
+    width: 250px; 
+    border: none; /* Elimina los bordes predeterminados */
+    border-bottom: 1px solid black; /* Agrega un borde inferior */
+    outline: none; /* Elimina el contorno al hacer clic */
+    padding: 5px; /* Ajusta el espaciado interno según tus necesidades */
+    /* Puedes agregar más estilos según tus necesidades */
+    background-color: transparent;
+    transform: translate(-85%, 230%);
+    color: black;
+}
+
+.docs {
+    transform: translate(-1700%, 220%);
+}
+
+.custom-input2 {
+    width: 250px; 
+    border: none; /* Elimina los bordes predeterminados */
+    border-bottom: 1px solid black; /* Agrega un borde inferior */
+    outline: none; /* Elimina el contorno al hacer clic */
+    padding: 5px; /* Ajusta el espaciado interno según tus necesidades */
+    /* Puedes agregar más estilos según tus necesidades */
+    background-color: transparent;
+    transform: translate(-197%, 400%);
+    color: black;
+}
+
+.docs2 {
+    transform: translate(-2610%, 350%);
+}
+
+.custom-input3 {
+    width: 250px; 
+    border: none; /* Elimina los bordes predeterminados */
+    border-bottom: 1px solid black; /* Agrega un borde inferior */
+    outline: none; /* Elimina el contorno al hacer clic */
+    padding: 5px; /* Ajusta el espaciado interno según tus necesidades */
+    /* Puedes agregar más estilos según tus necesidades */
+    background-color: transparent;
+    transform: translate(4%, 400%);
+    color: black;
+}
+
+.docs3 {
+    transform: translate(-975%, 350%);
+}
+
+.custom-input4 {
+    width: 250px; 
+    border: none; /* Elimina los bordes predeterminados */
+    border-bottom: 1px solid black; /* Agrega un borde inferior */
+    outline: none; /* Elimina el contorno al hacer clic */
+    padding: 5px; /* Ajusta el espaciado interno según tus necesidades */
+    /* Puedes agregar más estilos según tus necesidades */
+    background-color: transparent;
+    transform: translate(-108%, 550%);
+    color: black;
+}
+
+.docs4 {
+    transform: translate(-1885%, 477%);
+}
+
+.custom-input5 {
+    width: 250px; 
+    border: none; /* Elimina los bordes predeterminados */
+    border-bottom: 1px solid black; /* Agrega un borde inferior */
+    outline: none; /* Elimina el contorno al hacer clic */
+    padding: 5px; /* Ajusta el espaciado interno según tus necesidades */
+    /* Puedes agregar más estilos según tus necesidades */
+    background-color: transparent;
+    transform: translate(-220%, 850%);
+    color: black;
+}
+
+.docs5 {
+    transform: translate(-2798%, 720%);
+}
+
+.custom-input6 {
+    width: 250px; 
+    border: none; /* Elimina los bordes predeterminados */
+    border-bottom: 1px solid black; /* Agrega un borde inferior */
+    outline: none; /* Elimina el contorno al hacer clic */
+    padding: 5px; /* Ajusta el espaciado interno según tus necesidades */
+    /* Puedes agregar más estilos según tus necesidades */
+    background-color: transparent;
+    transform: translate(5%, 845%);
+    color: black;
+}
+
+.docs6 {
+    transform: translate(-970%, 720%);
+}
+
+.custom-input::placeholder {
+    color: black; /* Color del placeholder */
+}
+.custom-input2::placeholder {
+    color: black; /* Color del placeholder */
+}
+.custom-input3::placeholder {
+    color: black; /* Color del placeholder */
+}
+.custom-input4::placeholder {
+    color: black; /* Color del placeholder */
+}
+.custom-input5::placeholder {
+    color: black; /* Color del placeholder */
+}
+.custom-input6::placeholder {
+    color: black; /* Color del placeholder */
+}
+
+.line-divider {
+    height: 1px; /* Altura de la línea */
+    background-color: #000000; /* Color de la línea, puedes ajustarlo según tus preferencias */
+    margin: 10px 0; /* Margen superior e inferior para separar visualmente los campos */
+    width: 120px;
+    transform: translate(-20%, 24800%);
+}
+
+.line-divider2 {
+    height: 1px; /* Altura de la línea */
+    background-color: #000000; /* Color de la línea, puedes ajustarlo según tus preferencias */
+    margin: 10px 0; /* Margen superior e inferior para separar visualmente los campos */
+    width: 120px;
+    transform: translate(110%, 23600%);
+}
+
+.p {
+    transform: translate(12%, 975%);
+}
+
+.google-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff; /* Color de fondo */
+  color: #4285F4; /* Color del texto */
+  border: 1px solid #4285F4; /* Borde */
+  border-radius: 4px; /* Esquinas redondeadas */
+  padding: 10px 20px; /* Espaciado interno */
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  transform: translate(12%, 575%);
+}
+
+.google-btn:hover {
+  background-color: #4285F4; /* Cambia el color de fondo al pasar el ratón */
+  color: #fff; /* Cambia el color del texto al pasar el ratón */
+}
+
+.google-icon {
+  margin-right: 10px; /* Espaciado entre el icono y el texto */
+}
+
+.registrar-btn{
+    transform: translate(-20%, 675%);
+}
+
+.cancelar-btn{
+    transform: translate(55%, 675%);
+}
+
+.google-btn,
+.registrar-btn,
+.cancelar-btn {
+  background-color: rgba(0, 0, 0, 0.87);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px; /* Puedes ajustar este valor según tus preferencias */
+}
+
+.google-btn:hover,
+.registrar-btn:hover,
+.cancelar-btn:hover {
+  background-color: rgba(0, 0, 0, 1);
+}
