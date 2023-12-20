@@ -1,0 +1,127 @@
+/* En tu archivo Opcion2.css */
+
+h3{
+    text-align: center;
+}
+
+.p1{
+    width: 900px !important;
+    margin: 0 auto !important;
+    text-align: center;
+}
+
+.p2{
+    margin-top: 20px; /* Ajusta el valor según la separación deseada */
+    width: 200px !important;
+    margin: 0 auto !important;
+    text-align: center;
+    transform: translate(-300%, 30%);
+}
+
+.p3{
+    margin-top: 20px; /* Ajusta el valor según la separación deseada */
+    width: 200px !important;
+    margin: 0 auto !important;
+    text-align: center;
+    transform: translate(-5%, -50%);
+}
+
+.p4{
+    margin-top: 20px; /* Ajusta el valor según la separación deseada */
+    width: 200px !important;
+    margin: 0 auto !important;
+    text-align: center;
+    transform: translate(290%, -120%);
+}
+
+.pf1,.pf2{
+    width: auto;
+    height: 180px;
+}
+
+.pf1{
+    transform: translate(130%, -50%);
+}
+
+.pf2{
+    transform: translate(250%, -50%);
+}
+
+.custom-file-upload {
+    display: inline-block;
+    position: relative;
+}
+
+.button-style {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 18px; /* Ajusta el border-radius según tus preferencias */
+    background-color: transparent; /* Botón transparente */
+    color: #000; /* Texto en color negro */
+    cursor: pointer;
+    width: 350px;
+    text-align: center;
+    border: 2px solid #000; /* Bordes negros */
+    display: flex;
+    align-items: center;
+    transform: translate(10%, -20%);
+}
+
+.icon {
+    background-color: rgba(38, 225, 180, 1);
+    color: #fff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px; 
+}
+
+/* Ajusta el grosor del texto */
+.button-style span {
+    font-weight: bold;
+    width: 100%;
+    font-size: 16px; /* Ajusta el tamaño del texto según tus preferencias */
+    text-align: center;
+}
+
+.archivo{
+    color: blue;
+}
+
+.enviar-boton {
+  background-color: rgba(27, 188, 182, 1);
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 550px;
+  height: 45px;
+  font-weight: bold;
+  transform: translate(96%, 100%);
+}
+
+.actualizar{
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  padding: 10px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 200px;
+  text-align: center;
+  transform: translate(285%, 220%);
+}
+
+.p5{
+    margin-top: 20px; /* Ajusta el valor según la separación deseada */
+    width: 650px !important;
+    margin: 0 auto !important;
+    text-align: center;
+    transform: translate(1%, 410%);
+}

@@ -1,0 +1,59 @@
+/* En tu archivo Opcion1.css */
+
+/* Estilos para el encabezado */
+.container header {
+  background-color: rgba(217, 217, 217, 1);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+h2 {
+    max-width: 950px; /* O ajusta el ancho máximo según sea necesario */
+     /* Centra el h2 dentro del contenedor */
+    word-wrap: break-word; /* Permite saltos de línea dentro de palabras largas */
+}
+
+.sub {
+    text-align: center; /* Alinea el texto al centro */
+    margin-top: 10px; /* Ajusta la separación desde la parte superior según sea necesario */
+    transform: translateX(6%); 
+}
+
+/* Estilos para el grupo de botones */
+.button-groups-container {
+  display: flex;
+  flex-direction: column; /* Coloca los grupos de botones en columnas */
+  align-items: center; /* Centra los grupos de botones horizontalmente */
+}
+
+/* Estilos para cada grupo de botones */
+.button-group {
+  display: flex;
+  justify-content: center; /* Centra los botones dentro de cada grupo */
+  margin-top: 40px; /* Ajusta la separación entre grupos */ 
+}
+
+/* Estilos para cada botón en el grupo */
+.button-group button {
+  padding: 10px 20px; /* Espaciado interno */
+  margin: 0 62px; /* Márgenes entre los botones */
+  border: 0px solid #000;
+  background-color: #fff;
+  cursor: pointer;
+  width: 400px;
+  height: 50px;
+  background-color: rgba(217, 217, 217, 1);
+  border-radius: 20px;
+  transition: background-color 0.3s, color 0.3s; /* Agrega una transición suave para el cambio de color */
+  font-weight: bold; 
+  font-size: 18px;
+}
+
+/* Cambia los estilos cuando pasas el cursor sobre el botón */
+.button-group button:hover {
+  background-color: #000;
+  color: #fff;
+} 

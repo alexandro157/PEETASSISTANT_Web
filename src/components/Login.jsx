@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLock, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faGoogle } from '@fortawesome/free-brands-svg-icons';
 import '../styles/Login.css';
-import miLogin from '../imgs/login_2.png';
+import miLogin from '../imgs/login.png';
 import miLogo from '../imgs/dog.png';
 
 const Login = () => {

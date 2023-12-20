@@ -1,0 +1,117 @@
+  /* En tu archivo Opcion4.css */
+
+.cert{
+    transform: translate(105%, 25%);
+}
+
+.custom-file-upload3 {
+    display: inline-block;
+    position: relative;
+}
+
+.button-style3 {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 18px; /* Ajusta el border-radius según tus preferencias */
+    background-color: transparent; /* Botón transparente */
+    color: #000; /* Texto en color negro */
+    cursor: pointer;
+    width: 350px;
+    text-align: center;
+    border: 2px solid #000; /* Bordes negros */
+    display: flex;
+    align-items: center;
+    transform: translate(25%, 290%);
+}
+
+.icon3 {
+    background-color: rgba(38, 225, 180, 1);
+    color: #fff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px; 
+}
+
+/* Ajusta el grosor del texto */
+.button-style3 span {
+    font-weight: bold;
+    width: 100%;
+    font-size: 16px; /* Ajusta el tamaño del texto según tus preferencias */
+    text-align: center;
+}
+
+.archivo3{
+    color: blue;
+}
+
+.enviar-boton3 {
+  background-color: rgba(27, 188, 182, 1);
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 550px;
+  height: 45px;
+  font-weight: bold;
+  transform: translate(96%, 100%);
+}
+
+.actualizar3{
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  padding: 10px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 200px;
+  text-align: center;
+  transform: translate(285%, 220%);
+}
+
+.pp5{
+    margin-top: 20px; /* Ajusta el valor según la separación deseada */
+    width: 650px !important;
+    margin: 0 auto !important;
+    text-align: center;
+    transform: translate(1%, 410%);
+}
+
+.full-image-view {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.full-image-view img {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.cerrar-btn {
+    position: absolute;
+    top: 10px; /* Ajusta la distancia desde la parte superior */
+    right: 10px; /* Ajusta la distancia desde la parte derecha */
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cerrar-btn:hover {
+    background-color: #2980b9;
+}

@@ -1,0 +1,113 @@
+/* En tu archivo Opcion5.css */ 
+
+.scrollable-rectangle {
+    width: 800px; /* Ajusta el ancho según tus necesidades */
+    height: 200px; /* Ajusta la altura según tus necesidades */
+    overflow: auto;
+    border-radius: 15px;
+    background-color: rgba(242, 242, 242, 1);
+    padding: 10px;
+    transform: translate(48%, 20%);
+}
+
+.checkbox-container2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* Ajusta la separación entre el checkbox y los otros elementos */
+  
+}
+
+.remember-checkbox2 {
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 3px;
+  outline: none;
+  margin-right: 10px;
+}
+
+.remember-label2 {
+  color: black; /* Color del texto del checkbox */
+}
+
+.remember-checkbox2:checked {
+  background-color: rgba(61, 218, 180, 1); /* Cambia el color de fondo del checkbox cuando está seleccionado */
+  border: 1px solid black; /* Añade un borde alrededor del checkbox cuando está seleccionado */
+}
+
+.remember-checkbox2:checked::before {
+    content: '\2713'; /* ✓ character */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    color: white; /* Cambia el color del marcador de verificación a blanco */
+    /*background-color: black; /* Cambia el color de fondo del checkbox cuando está seleccionado */
+    /*border: 1px solid black; /* Añade un borde alrededor del checkbox cuando está seleccionado */
+}
+
+/* Checkbox 2*/
+
+.checkbox-container3 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* Ajusta la separación entre el checkbox y los otros elementos */
+  
+}
+
+.remember-checkbox3 {
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 3px;
+  outline: none;
+  margin-right: 10px;
+}
+
+.remember-label3 {
+  color: black; /* Color del texto del checkbox */
+}
+
+.remember-checkbox3:checked {
+  background-color: rgba(0, 179, 215, 1); /* Cambia el color de fondo del checkbox cuando está seleccionado */
+  border: 1px solid black; /* Añade un borde alrededor del checkbox cuando está seleccionado */
+}
+
+.remember-checkbox3:checked::before {
+    content: '\2713'; /* ✓ character */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    color: white; /* Cambia el color del marcador de verificación a blanco */
+    /*background-color: black; /* Cambia el color de fondo del checkbox cuando está seleccionado */
+    /*border: 1px solid black; /* Añade un borde alrededor del checkbox cuando está seleccionado */
+}
+
+.buttoncc {
+    border: 2px solid black; /* Borde negro */
+    background-color: transparent; /* Fondo transparente */
+    font-weight: bold; /* Texto en negrita */
+    padding: 10px 20px; /* Ajusta el relleno según sea necesario */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    width: 450px;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+    transform: translate(130%, 490%);
+}
+
+.buttoncc:hover {
+    background-color: black; /* Fondo negro al pasar el cursor */
+    color: white; /* Texto blanco al pasar el cursor */
+}
+  

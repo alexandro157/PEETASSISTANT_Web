@@ -7,10 +7,10 @@ import miImagen2 from '../imgs/img_2.png';
 import miImagen3 from '../imgs/img_3.png';
 import miImagen4 from '../imgs/img_4.png';
 
-
+ 
 const Inicio = () => {
-  return (
-    <div className="container">
+  return ( 
+    <div className="containerInicio">
       <div className="mitad-superior">
         <div className="izquierda">
             <div className="circulo">

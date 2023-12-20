@@ -1,7 +1,7 @@
 /* En Inicio.css */
 
 /* Estilos para el contenedor principal */
-.container {
+.containerInicio {
   display: flex;
   flex-direction: column;
   height: 300vh;
@@ -200,7 +200,7 @@
   background-color: white; /* Cambia el color de fondo al pasar sobre el botón */
   color: #282c34; /* Cambia el color del texto al pasar sobre el botón */
 }
-
+ 
 .registro-btn2 {
   padding: 10px 20px; /* Ajusta el espaciado interno del botón */
   font-size: 26px; /* Ajusta el tamaño de la fuente del botón */
